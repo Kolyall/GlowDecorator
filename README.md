@@ -4,7 +4,7 @@
 <a href='https://bintray.com/nickunuchek/maven/GlowDecorator/1.0/link'><img src='https://api.bintray.com/packages/nickunuchek/maven/GlowDecorator/images/download.svg?version=1.0'></a>
 
 <img src='https://i.stack.imgur.com/aFieS.jpg'>
-<img src='https://github.com/Kolyall/GlowDecorator/blob/master/github/screenshot23.png' width="108" height="192">
+<img src='https://github.com/Kolyall/GlowDecorator/blob/master/github/screenshot23.png' width="216" height="384">
 
 ```
 dependencies {
