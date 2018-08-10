@@ -1,14 +1,14 @@
 # GlowDecorator
 <a href='https://bintray.com/nickunuchek/maven/GlowDecorator?source=watch' alt='Get automatic notifications about new "GlowDecorator" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
-<a href='https://bintray.com/nickunuchek/maven/GlowDecorator/1.0/link'><img src='https://api.bintray.com/packages/nickunuchek/maven/GlowDecorator/images/download.svg?version=1.0'></a>
+ <a href='https://bintray.com/nickunuchek/maven/GlowDecorator/_latestVersion'><img src='https://api.bintray.com/packages/nickunuchek/maven/GlowDecorator/images/download.svg'></a>
 
 <img src='https://i.stack.imgur.com/aFieS.jpg'>
 <img src='https://github.com/Kolyall/GlowDecorator/blob/master/github/screenshot23.png' width="216" height="384">
 
 ```
 dependencies {
-      compile 'com.github.kolyall:glowdecorator:1.0.6'
+      compile 'com.github.kolyall:glowdecorator:{latestVersion}'
 }
 ```
 Usage:
