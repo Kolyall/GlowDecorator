@@ -1,10 +1,11 @@
 package by.unick.glowdecorator;
 
+import android.support.annotation.ColorInt;
+import android.support.annotation.ColorRes;
+import android.support.annotation.DimenRes;
+import android.support.annotation.DrawableRes;
+import android.support.annotation.IntRange;
 import android.view.View;
-
-/**
- * Created by Nick Unuchek on 31.05.2017.
- */
 
 public class GlowCreator {
     private final GlowDecorator mGlowDecorator;
@@ -20,13 +21,34 @@ public class GlowCreator {
         return this;
     }
 
+    public GlowCreator glowRadiusDimenRes(@DimenRes int glowRadiusDimenRes) {
+        mGlowSettingsBuilder.glowRadiusDimenRes(glowRadiusDimenRes);
+        return this;
+    }
+
     public GlowCreator margin(int margin) {
         mGlowSettingsBuilder.margin(margin);
         return this;
     }
+    public GlowCreator marginDimenRes(@DimenRes int marginDimenRes) {
+        mGlowSettingsBuilder.marginDimenRes(marginDimenRes);
+        return this;
+    }
 
-    public GlowCreator glowColor(int glowColor) {
+    public GlowCreator glowColor(@ColorInt int glowColor) {
         mGlowSettingsBuilder.glowColor(glowColor);
+        return this;
+    }
+    public GlowCreator glowColorRes(@ColorRes int glowColorRes) {
+        mGlowSettingsBuilder.glowColorRes(glowColorRes);
+        return this;
+    }
+    public GlowCreator animationDuration(@IntRange(from = 1) int animationDuration) {
+        mGlowSettingsBuilder.animationDuration(animationDuration);
+        return this;
+    }
+    public GlowCreator imageRes(@DrawableRes int imageRes) {
+        mGlowSettingsBuilder.imageRes(imageRes);
         return this;
     }
 
