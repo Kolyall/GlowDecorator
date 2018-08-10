@@ -8,7 +8,7 @@
 
 ```
 dependencies {
-      compile 'com.github.kolyall:glow-decorator:1.0'
+      compile 'com.github.kolyall:glowdecorator:1.0.6'
 }
 ```
 Usage:
