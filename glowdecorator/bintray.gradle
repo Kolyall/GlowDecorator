@@ -14,7 +14,7 @@ ext {
     bintrayName = 'GlowDecorator'//name of project on https://bintray.com/nickunuchek/maven
 
     publishedGroupId = 'com.github.kolyall'//only this
-    artifact = 'glow-decorator'//should be the same as module name
+    artifact = 'glowdecorator'//should be the same as module name
     libraryVersion = appVersionName
 
     libraryName = 'GlowDecorator'
