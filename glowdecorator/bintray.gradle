@@ -15,6 +15,7 @@ ext {
 
     publishedGroupId = 'com.github.kolyall'//only this
     artifact = 'glowdecorator'//should be the same as module name
+    artifactLocal = 'glowdecorator'//should be the same as module name
     libraryVersion = appVersionName
 
     libraryName = 'GlowDecorator'
